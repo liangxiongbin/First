@@ -44,9 +44,10 @@ namespace test1
           {
 
               SqlConnectionStringBuilder a = new SqlConnectionStringBuilder();
+              //以下根据自己的数据库填写
               a.DataSource = "(local)";
               a.UserID = "sa";
-              a.Password = "2998554809";
+              a.Password = "xxxxxx";
               a.InitialCatalog = "NetSchool";
               SqlConnection conn = new SqlConnection(a.ToString());
               conn.Open();
