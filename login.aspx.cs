@@ -21,7 +21,7 @@ namespace test1
             SqlConnectionStringBuilder a = new SqlConnectionStringBuilder();
             a.DataSource = "(local)";
             a.UserID = "sa";
-            a.Password = "2998554809";
+            a.Password = "xxxxx";
             a.InitialCatalog = "NetSchool";
             SqlConnection conn = new SqlConnection(a.ToString());
             try
